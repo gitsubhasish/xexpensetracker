@@ -1,0 +1,40 @@
+.expenseTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expenseTable th,
+.expenseTable td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.expenseTable th {
+  background-color: #f4f4f4;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  margin-right: 8px;
+}
+
+.iconButton:hover {
+  color: #007bff;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  background-color: #d0d0d0; /* Light grey background */
+  border-radius: 50%; /* Round shape */
+  color: #333; /* Color of the icon */
+  font-size: 20px; /* Adjust icon size as needed */
+}
